@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Twitter Clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-container">
+        <section class="section-option">
+          <div class="options">
+            <ion-icon class="twitter-logo" name="logo-twitter"></ion-icon>
+            <div class="option">
+              <a class="option-btn" href="#">
+                <ion-icon class="option-icon" name="home-outline"></ion-icon>
+                <span class="option-name">Home</span>
+              </a>
+            </div>
+            <div class="option">
+              <a class="option-btn" href="#">
+                <ion-icon
+                  class="option-icon"
+                  name="trending-up-outline"
+                ></ion-icon>
+                <span class="option-name">Explore</span>
+              </a>
+            </div>
+            <div class="option">
+              <a class="option-btn extra" href="#">
+                <ion-icon
+                  class="option-icon"
+                  name="notifications-outline"
+                ></ion-icon>
+                <span class="option-name">Notifications</span>
+              </a>
+            </div>
+            <div class="option">
+              <a class="option-btn" href="#">
+                <ion-icon class="option-icon" name="mail-outline"></ion-icon>
+                <span class="option-name">Messages</span>
+              </a>
+            </div>
+            <div class="option">
+              <a class="option-btn" href="#">
+                <ion-icon
+                  class="option-icon"
+                  name="bookmark-outline"
+                ></ion-icon>
+                <span class="option-name">Saves</span>
+              </a>
+            </div>
+            <div class="option">
+              <a class="option-btn" href="#">
+                <ion-icon class="option-icon" name="list-outline"></ion-icon>
+                <span class="option-name">Lists</span>
+              </a>
+            </div>
+            <div class="option">
+              <a class="option-btn" href="#">
+                <ion-icon class="option-icon" name="person-outline"></ion-icon>
+                <span class="option-name">Profile</span>
+              </a>
+            </div>
+            <div class="option">
+              <a class="option-btn" href="#">
+                <ion-icon
+                  class="option-icon"
+                  name="settings-outline"
+                ></ion-icon>
+                <span class="option-name">Settings</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="section-main">
+          <div class="upper-main">
+            <div class="name-arrow">
+              <ion-icon class="left-arrow" name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="name-posts">
+              <span class="top-name"><strong>Jonas Schmedtmann</strong></span>
+              <span class="no-of-posts">2,694 Posts</span>
+            </div>
+          </div>
+          <img
+            class="banner-img"
+            src="https://pbs.twimg.com/profile_banners/141653186/1554883733/600x200"
+          />
+          <div class="jonas-info">
+            <div class="photo-follow">
+              <img
+                class="jonas-img"
+                src="jonas.jpg"
+                width="150px"
+                height="150px"
+              />
+            </div>
+
+            <div class="photo-follow-1">
+              <a class="follow-btn" href="#">Follow</a>
+            </div>
+            <div class="jonas-description">
+              <div class="jonas-name">
+                <h3 class="jonas-full-name">Jonas Schmedtmann</h3>
+                <p class="jonas-id">@jonasschmedtman</p>
+              </div>
+              <div class="jonas-occupation">
+                <p>
+                  Developer. Designer. Online teacher. Find my courses at
+                  jonas.io.
+                </p>
+              </div>
+              <div class="jonas-location-date">
+                <div class="jonas-location">
+                  <ion-icon
+                    class="jonas-info-icon"
+                    name="location-outline"
+                  ></ion-icon>
+                  <span class="jonas-loc-date">Algarve, Portugal</span>
+                </div>
+                <div class="jonas-date">
+                  <ion-icon
+                    class="jonas-info-icon"
+                    name="calendar-clear-outline"
+                  ></ion-icon>
+                  <span class="jonas-loc-date">Joined May 2010</span>
+                </div>
+              </div>
+              <div class="followers">
+                <p><strong>28</strong> Following</p>
+                <p><strong>68.7K</strong> Followers</p>
+              </div>
+            </div>
+          </div>
+          <div class="activity-links">
+            <a class="activity" href="#">
+              <span><strong>Posts</strong></span>
+              <div class="blue-box"></div
+            ></a>
+            <a class="activity" href="#">Replies</a>
+            <a class="activity" href="#">Media</a>
+            <a class="activity" href="#">Links</a>
+          </div>
+          <div class="post">
+            <div class="post-flex">
+              <img
+                src="jonas.jpg"
+                class="post-img"
+                height="40px"
+                width="40px"
+              />
+              <div class="post-info">
+                <div class="post-upper">
+                  <div class="post-top">
+                    <p class="jonas-full-name">
+                      <strong>Jonas Schmedtmann</strong>
+                    </p>
+                    <span class="jonas-id">@jonasschmedtman</span>
+                    <span class="date">Jun 5</span>
+                  </div>
+                  <div>
+                    <ion-icon
+                      class="post-icon"
+                      name="ellipsis-horizontal-outline"
+                    ></ion-icon>
+                  </div>
+                </div>
+                <div class="post-content">
+                  <div class="content-flex">
+                    <p>The "Ultimate React Course" is LIVE</p>
+                    <p>
+                      If you're wondering: "Should I take this course?", the
+                      answer is YES. Even if you already know React. The course
+                      goes REALLY deep, so there is some content for everyone.
+                    </p>
+                    <p>Here's your discount coupon:</p>
+                  </div>
+                  <div class="article">
+                    <img
+                      class="article-img"
+                      src="https://pbs.twimg.com/card_img/1703713553080070144/lSz0dg8t?format=webp&name=small"
+                    />
+                    <div class="article-content">
+                      <span>udemy.com</span>
+                      <p>The Ultimate React Course 2023: React, Redux & More</p>
+                      <span
+                        >Master modern React from beginner to advanced! Context
+                        API, React Query, Redux Toolkit, Tailwind, advanced
+                        patterns</span
+                      >
+                    </div>
+                  </div>
+                  <div class="reactions">
+                    <div class="reaction">
+                      <ion-icon
+                        class="reaction-icon"
+                        name="chatbubble-outline"
+                      ></ion-icon>
+                      <p class="reaction-number">301</p>
+                    </div>
+                    <div class="reaction">
+                      <ion-icon
+                        class="reaction-icon"
+                        name="repeat-outline"
+                      ></ion-icon>
+                      <p class="reaction-number">392</p>
+                    </div>
+                    <div class="reaction">
+                      <ion-icon
+                        class="reaction-icon"
+                        name="heart-outline"
+                      ></ion-icon>
+                      <p class="reaction-number">2364</p>
+                    </div>
+                    <div class="reaction">
+                      <ion-icon
+                        class="reaction-icon"
+                        name="stats-chart-outline"
+                      ></ion-icon>
+                      <p class="reaction-number">221.7K</p>
+                    </div>
+                    <ion-icon
+                      class="share-icon"
+                      name="share-outline"
+                    ></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-recommendations">
+          <div class="new-option">
+            <div class="new-flex">
+              <h3>New to Twitter?</h3>
+              <span>Sign up now to get your own personalized timeline!</span>
+              <div class="sign-ups">
+                <a href="#" class="sign-up">
+                  <ion-icon class="sign-up-icon" name="logo-google"></ion-icon>
+                  <p class="sign-up-option">Sign Up with Google</p>
+                </a>
+                <a href="#" class="sign-up">
+                  <ion-icon class="sign-up-icon" name="logo-apple"></ion-icon>
+                  <p class="sign-up-option">Sign Up with Apple</p>
+                </a>
+                <a href="#" class="sign-up">
+                  <p class="sign-up-option">Create Account</p>
+                </a>
+              </div>
+              <p class="terms">
+                By signing up, you agree to the Terms of Service and Privacy
+                Policy, including Cookie Use.
+              </p>
+            </div>
+          </div>
+          <div class="you-might-like">
+            <div class="like-flex">
+              <h3>You might like</h3>
+              <div class="like-options">
+                <div class="like-option">
+                  <img
+                    class="like-img"
+                    src="freecodecamp.jpg"
+                    height="40px"
+                    width="40px"
+                  />
+                  <div class="like-description">
+                    <p class="like-name"><strong>freeCodeCamp.org</strong></p>
+                    <span>@freeCodeCamp</span>
+                  </div>
+                  <a class="follow-btn" href="#">Follow</a>
+                </div>
+
+                <div class="like-option">
+                  <img
+                    class="like-img"
+                    src="react.png"
+                    height="40px"
+                    width="40px"
+                  />
+                  <div class="like-description">
+                    <p class="like-name"><strong>React</strong></p>
+                    <span>@reactjs</span>
+                  </div>
+                  <a class="follow-btn" href="#">Follow</a>
+                </div>
+              </div>
+              <div class="show-more">
+                <p>Show more</p>
+              </div>
+            </div>
+          </div>
+          <div class="trends">
+            <p>Trends are unavailable.</p>
+          </div>
+          <div class="links">
+            <div class="links-1">
+              <p class="link-link">Terms of Service</p>
+              <p class="link-link">Privacy Policy</p>
+              <p class="link-link">Cookie Policy</p>
+            </div>
+            <div class="links-2">
+              <p class="link-link">Accessibility</p>
+              <p class="link-link">Ads info</p>
+              <p class="link-link">More ...</p>
+              <span class="link-link">@2021 Twitter Corp.</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
